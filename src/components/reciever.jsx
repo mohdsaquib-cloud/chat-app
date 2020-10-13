@@ -3,7 +3,7 @@ const Receiver=({message})=>{
         return (
           <div className="d-flex">
             <div className="p-2 card col-5 m-2">                               
-            <h1 className="text-left">{message.message}</h1>
+            <h5 className="text-left">{message.message}</h5>
             </div>
           </div>
         );
